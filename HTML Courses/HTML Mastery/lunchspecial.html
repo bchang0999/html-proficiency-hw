@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title style="text-align: center;">CafeName</title>
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center;">Cafe Names Lunch Special</h1>
+    </div>
+    <div>
+        <h2 style="text-align: center;">Monday thorugh Friday, 11am ~ 3pm </h2>
+    </div>
+    <div>
+        <p style="text-align: center;"> <strong>$9.95</strong> Plus tax</p>
+    </div>
+    <Form action="" method="post" target="_blank" autocomplete="on">
+        <!-- Sandwich Section -->
+        <h1 style="text-align: center; text-decoration: underline ;">Sandiwch's</h1>
+
+        <div style="border-color: black; border-style: solid;">
+            <label for="day"><strong>Monday</strong></label>
+            <div>
+                <input type="radio" name="Sandwich" value="tomato-mozzarella" id="tomato-mozzarella">
+                <label for="tomato-mozzarella">Tomato Mozzarella</label><br/>
+
+                <input type='radio' name="Sandwich" id="Chicken-Sandwich" value="Chicken-Sandwich">
+                <label for="Chicken-Sandwich">Chicken Sandwich</label> <br/>
+            </div>
+            <label for="day"><strong>Tuesday</strong></label>
+            <div>
+                <input type="radio" name="Sandwich" value="Greek-Salad-Wrap" id="Greek-Salad-Wrap">
+                <label for="Greek-Salad-Wrap">Greek Salad Wrap</label><br/>
+
+                <input type='radio' name="Sandwich" value="toto-wrap" id="toto-wrap">
+                <label for="toto-wrap">Toto Wrap</label> <br/>
+            </div>
+            <label for="day"><strong>Wednesday</strong></label>
+            <div>
+                <input type="radio" name="Sandwich" value="RedPepperHummus" id="RedPepperHummus">
+                <label for="RedPepperHummus">Red Pepper Hummus</label><br/>
+
+                <input type='radio' name="Sandwich" value="RoastedTurkey" id="RoastedTurkey">
+                <label for="RoastedTurkey">RoastedTurkey</label> <br/>
+            </div>
+            <label for="day"><strong>Thursday</strong></label>
+            <div>
+                <input type="radio" name="Sandwich" value="Carrot-GingerHummusWrap" id="Carrot-GingerHummusWrap">
+                <label for="Carrot-GingerHummusWrap">Carrot-Ginger Hummus Wrap</label><br/>
+
+                <input type='radio' name="Sandwich" value="EggSalad" id="EggSalad">
+                <label for="EggSalad">Egg Salad</label> <br/>
+            </div>
+            <label for="day"><strong>Friday</strong></label>
+            <div>
+                <input type="radio" name="Sandwich" value="DadoWrap" id="DadoWrap">
+                <label for="DadoWrap">DadoWrap</label><br/>
+
+                <input type='radio' name="Sandwich" value="Tuna-salad" id="Tuna-salad">
+                <label for="Tuna-salad">Tuna Salad</label> <br/>
+            </div>
+            <hr>
+            <p style="color: red;">Additional 75<span>&#162</span> for Gluten Free Bread</p>
+            <label><strong> Select if you would like Gluten Free Bread</strong></label>
+            <div>
+                <input type="checkbox" name="Sandwich" value="GlutenFreeBread" id="GlutenFreeBread">
+                <label for="GlutenFreeBread">Gluten Free Bread</label><br/>
+            </div>
+          </div>
+          <!-- Snack Section -->
+          <div>
+            <h1 style="text-align: center; text-decoration: underline">Snack's</h1>
+            <div style="border-style: solid;;">
+                <label for="day"><strong>Snacks</strong></label>
+                <div>
+                    <input type='radio' name="Snacks" value="Apple" id="Apple">
+                    <label for="Apple">Apple</label> <br/>
+
+                    <input type='radio' name="Snacks" value="Banana" id="Banana">
+                    <label for="Banana">Banana</label> <br/>
+                    
+                    <input type='radio' name="Snacks" value="PotatoChips" id="PotatoChips">
+                    <label for="PotatoChips">Potato Chips</label> <br/>
+                </div>
+           </div>
+           <!-- Drinks -->
+           <h1 style="text-align: center; text-decoration: underline">Drink's</h1>
+           <div style="border-style: solid;">
+            <label for="drink"> <strong>Regular Size Drinks</strong> </label>
+            <div>
+                <select name="drink" id="drink">                   
+                        <optgroup label="Coffee">
+                            <option value="0">Hot Coffee</option>
+                            <option value="1">Iced Coffee</option>
+                        </optgroup>            
+                        <optgroup label="Organic Drinks">
+                            <option value="2">Peppermint</option>
+                        </optgroup>  
+                        <optgroup label="Sencha Green Tea">
+                            <option value="0">Hot Sencha Green Tea</option>
+                            <option value="1">Iced Sencha Green Tea</option>
+                        </optgroup>  
+                        <optgroup label="Keemun Black Tea">
+                            <option value="0">Hot Keemun Black Tea</option>
+                            <option value="1">Iced Keemun Black Tea</option>
+                        </optgroup>  
+                    </select>
+                    <hr>
+                    <input type="checkbox" name="large" id="large" value="large" checked/>
+                    <label for="large">Large Drink (75<span>&#162</span> extra) </label> 
+                    <br>
+
+            </div>
+            </div>
+            <br>
+            <br>
+            <br>
+                <div style="text-align: center;">
+                    <button type="submit" style="color: blue;">Place Order</button>
+                </div>
+    </Form>
+</body>
+</html>

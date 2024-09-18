@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sign Up not for Clipped</h1>
+    <form action="" method="post" target="_blank" autocomplete="on">
+
+        <div>
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" placeholder="Elon">
+        </div>
+
+        <div>
+            <label for="lname">Last Name</label>
+            <input type="text" placeholder="Musk" id="lname">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="abc@gmail.com">
+        </div>
+
+        <div>
+            <label for="phone">Telephone</label>
+            <input type="tel" id="phone">
+        </div>
+
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password">
+        </div>
+
+        <!-- Select dropdonw choice input fields -->
+         <div>
+            <label for="level">What is your current coding skill</label>
+            <select name="level" id="level">
+                <option value="0">Im a Beginner</option>
+                <option value="1">Im an Intermediate</option>
+                <option value="2">Im an Expert</option>
+                <option value="3">I live in the Matrix</option>
+            </select>
+         </div>
+
+         <!-- Radio Select -->
+          <div>
+            <label for="course">What Membership would you like</label>
+
+            <div>
+                <input type="radio" name="course" value="platinum" id="platinum">
+                <label for="platinum">I want the Platinum Membership</label><br/>
+
+                <input type="radio" name="course" id="Diamond" value="Diamond">
+                <label for="Diamond">I want the Diamond Membership</label> <br/>
+            </div>
+          </div>
+
+          <!-- Checkbox (select Many) Input Field -->
+           <div>
+            <label for="reason">Why do you want to join the PapaFam?</label>
+
+            <div>
+                <input type="checkbox" name="reason" id="love" value="love" checked/>
+                <label for="love">I love React</label> <br>
+
+                <input type="checkbox" name="reason" id="community" value="community">
+                <label for="community">I want to be part of a community</label>
+
+                <input type="checkbox" name="reason" id="job" value="job">
+                <label for="job">I want a job this year</label><br>
+
+                <input type="checkbox" name="reason" id="learn" value="learn">
+                <label for="learn"> I want to learn</label> <br>
+            </div>
+           </div>
+
+           <!-- File Picekr input field -->
+           <input type="file"/>
+
+           <!-- Form Submit Button -->
+            <div>
+                <button class="resetBtn" type="reset">RESET</button>
+                <button type="submit">Submit</button>
+            </div>
+    </form>
+</body>
+</html>
